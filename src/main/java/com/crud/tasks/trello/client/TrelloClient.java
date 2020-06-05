@@ -30,11 +30,10 @@ public class TrelloClient {
     private String trelloUsername;
 
 
-    public List<TrelloBoardDto> getTrelloBoard() {
+    public List<TrelloBoardDto> getTrelloBoards() {
         URI url = getTrelloBoardsUri();
-
-            TrelloBoardDto[] boardsResponse = restTemplate.getForObject(url, TrelloBoardDto[].class);
-            return Arrays.asList(Optional.ofNullable(boardsResponse).orElse(new TrelloBoardDto[0]));
+        TrelloBoardDto[] boardsResponse = restTemplate.getForObject(url, TrelloBoardDto[].class);
+        return Arrays.asList(Optional.ofNullable(boardsResponse).orElse(new TrelloBoardDto[0]));
     }
 
     private URI getTrelloBoardsUri() {
