@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crud.tasks.trello.client.TrelloClientTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-08T18:45:00" hostname="BIUROPC" time="0.024">
+  <properties/>
+  <testcase name="shouldReturnEmptyList" classname="com.crud.tasks.trello.client.TrelloClientTest" time="0.024"/>
+  <system-out><![CDATA[http://test.com/members/kamilkowalczyk27/boards?key=test&token=test&fields=name,id&lists=all
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
