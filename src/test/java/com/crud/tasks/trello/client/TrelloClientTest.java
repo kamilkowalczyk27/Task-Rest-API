@@ -31,7 +31,6 @@ public class TrelloClientTest {
     @Mock
     private TrelloConfig trelloConfig;
 
-
     @Before
     public void init() {
         when(trelloConfig.getTrelloApiEndpoint()).thenReturn("http://test.com");
@@ -60,7 +59,6 @@ public class TrelloClientTest {
         assertEquals("test_board", fetchedTrelloBoards.get(0).getName());
         assertEquals(new ArrayList<>(), fetchedTrelloBoards.get(0).getLists());
     }
-
 
     @Test
     public void shouldCreateCard() throws URISyntaxException {
