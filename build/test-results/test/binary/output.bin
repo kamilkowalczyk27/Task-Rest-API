@@ -1,1 +1,4 @@
 ^http://test.com/members/kamilkowalczyk27/boards?key=test&token=test&fields=name,id&lists=all
+^http://test.com/members/kamilkowalczyk27/boards?key=test&token=test&fields=name,id&lists=all
+^http://test.com/members/kamilkowalczyk27/boards?key=test&token=test&fields=name,id&lists=all
+khttp://test.com/cards?key=test&token=test&name=Test%20task&desc=Test%20Description&pos=top&idList=test_id
