@@ -6,12 +6,9 @@ import com.crud.tasks.domain.TrelloCardDto;
 import com.crud.tasks.trello.client.TrelloClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
-import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
-
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/v1/trello")
 public class TrelloController {
@@ -23,7 +20,7 @@ public class TrelloController {
         return trelloClient.getTrelloBoards();
     }
 
-    @RequestMapping(method = RequestMethod.POST, value = "createTask", consumes = APPLICATION_JSON_VALUE)
+    @RequestMapping(method = RequestMethod.POST, value = "createTask")
     public CreatedTrelloCard createTrelloCard(@RequestBody TrelloCardDto trelloCardDto) {
         return trelloClient.createNewCard(trelloCardDto);
     }
