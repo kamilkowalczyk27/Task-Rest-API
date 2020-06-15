@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crud.tasks.service.SimpleEmailServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-13T15:35:15" hostname="BIUROPC" time="0.019">
+<testsuite name="com.crud.tasks.service.SimpleEmailServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-14T17:23:43" hostname="BIUROPC" time="0.024">
   <properties/>
-  <testcase name="shouldSendEmail" classname="com.crud.tasks.service.SimpleEmailServiceTest" time="0.019"/>
-  <system-out><![CDATA[17:35:15.297 [Test worker] INFO org.springframework.mail.SimpleMailMessage - Starting email preparation...
-17:35:15.307 [Test worker] INFO org.springframework.mail.SimpleMailMessage - Email has been sent.
+  <testcase name="shouldSendEmail" classname="com.crud.tasks.service.SimpleEmailServiceTest" time="0.024"/>
+  <system-out><![CDATA[19:23:43.240 [Test worker] INFO org.springframework.mail.SimpleMailMessage - Starting email preparation...
+19:23:43.253 [Test worker] INFO org.springframework.mail.SimpleMailMessage - Email has been sent.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
