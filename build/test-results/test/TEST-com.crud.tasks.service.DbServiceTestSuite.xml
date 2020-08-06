@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crud.tasks.service.DbServiceTestSuite" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-08-06T19:54:14" hostname="BIUROPC" time="0.005">
+  <properties/>
+  <testcase name="getAllTasksTest" classname="com.crud.tasks.service.DbServiceTestSuite" time="0.002"/>
+  <testcase name="saveTaskTest" classname="com.crud.tasks.service.DbServiceTestSuite" time="0.001"/>
+  <testcase name="getTaskWhichDoesNotExist" classname="com.crud.tasks.service.DbServiceTestSuite" time="0.001"/>
+  <testcase name="getTaskTest" classname="com.crud.tasks.service.DbServiceTestSuite" time="0.0"/>
+  <testcase name="deleteTaskTest" classname="com.crud.tasks.service.DbServiceTestSuite" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
