@@ -33,6 +33,7 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+	compile('com.google.code.gson:gson:2.8.2')
 	//local
 	compile 'mysql:mysql-connector-java'
 	//heroku
