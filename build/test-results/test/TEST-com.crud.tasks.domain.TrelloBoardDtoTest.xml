@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.crud.tasks.domain.TrelloBoardDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-09T14:29:53" hostname="BIUROPC" time="0.002">
+  <properties/>
+  <testcase name="createTrelloBoardDtoTest" classname="com.crud.tasks.domain.TrelloBoardDtoTest" time="0.002"/>
+  <system-out><![CDATA[2020-08-09 16:29:50.353  INFO 19136 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.crud.tasks.domain.TrelloBoardDtoTest], using SpringBootContextLoader
+2020-08-09 16:29:50.353  INFO 19136 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.crud.tasks.domain.TrelloBoardDtoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-08-09 16:29:50.353  INFO 19136 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.crud.tasks.domain.TrelloBoardDtoTest]: TrelloBoardDtoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-08-09 16:29:50.360  INFO 19136 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.crud.tasks.TasksApplication for test class com.crud.tasks.domain.TrelloBoardDtoTest
+2020-08-09 16:29:50.362  INFO 19136 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-08-09 16:29:50.362  INFO 19136 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@538098ac, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@44106372, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2efee07c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@57b24a0d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@a0fdaf, org.springframework.test.context.transaction.TransactionalTestExecutionListener@476c053a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1ec8e0ab, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5bef335d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ca5f00a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7b476b71, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2253010a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4abc6]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v2.1.14.RELEASE)
+
+2020-08-09 16:29:50.379  INFO 19136 --- [    Test worker] c.crud.tasks.domain.TrelloBoardDtoTest   : Starting TrelloBoardDtoTest on biuropc with PID 19136 (started by Biuro in C:\projekty\Task-Rest-API)
+2020-08-09 16:29:50.379  INFO 19136 --- [    Test worker] c.crud.tasks.domain.TrelloBoardDtoTest   : No active profile set, falling back to default profiles: default
+2020-08-09 16:29:50.775  INFO 19136 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-08-09 16:29:50.838  INFO 19136 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54ms. Found 1 JPA repository interfaces.
+2020-08-09 16:29:51.266  INFO 19136 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-08-09 16:29:51.366  INFO 19136 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.17.Final}
+2020-08-09 16:29:51.367  INFO 19136 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-08-09 16:29:51.424  INFO 19136 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-08-09 16:29:51.607  INFO 19136 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-09 16:29:51.920  INFO 19136 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-09 16:29:51.938  INFO 19136 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-08-09 16:29:52.516  INFO 19136 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-09 16:29:52.987  WARN 19136 --- [    Test worker] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-09 16:29:53.109  INFO 19136 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-08-09 16:29:53.395  INFO 19136 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-09 16:29:53.596  INFO 19136 --- [    Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-08-09 16:29:53.642  INFO 19136 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-08-09 16:29:53.643  INFO 19136 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-08-09 16:29:53.648  INFO 19136 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-08-09 16:29:53.689  INFO 19136 --- [    Test worker] c.crud.tasks.domain.TrelloBoardDtoTest   : Started TrelloBoardDtoTest in 3.326 seconds (JVM running for 8.415)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
