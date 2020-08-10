@@ -1,7 +1,7 @@
 package com.crud.tasks.mapper;
 
-import com.crud.tasks.domin.Task;
-import com.crud.tasks.domin.TaskDto;
+import com.crud.tasks.domain.Task;
+import com.crud.tasks.domain.TaskDto;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +25,7 @@ public class TaskMapperTestSuite {
         //When
         Task task = taskMapper.mapToTask(taskDto);
         //Then
-        assertEquals(taskDto.getId(), task.getId());
+        assertEquals(1, (long)task.getId());
         assertEquals("title", task.getTitle());
         assertEquals("content", task.getContent());
     }
