@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.crud.tasks.scheduler.EmailSchedulerTestSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-10T16:07:59" hostname="BIUROPC" time="0.012">
-  <properties/>
-  <testcase name="sendInformationEmail" classname="com.crud.tasks.scheduler.EmailSchedulerTestSuite" time="0.012"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
