@@ -99,5 +99,4 @@ public class TrelloControllerTest {
                 .andExpect(jsonPath("$.name", is("Test")))
                 .andExpect(jsonPath("$.shortUrl", is("http://test.com")));
     }
-
 }
