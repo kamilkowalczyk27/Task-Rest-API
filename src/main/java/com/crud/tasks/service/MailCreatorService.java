@@ -51,8 +51,7 @@ public class MailCreatorService {
 
         List<String> functionality = new ArrayList<>();
         functionality.add("This is Your once a day mail about quantity of tasks in Your account in Trello");
-        functionality.add("You have:");
-        functionality.add(size + taskOrTasks);
+        functionality.add("You have: " + size + taskOrTasks);
 
         Context context = new Context();
         context.setVariable("message", message);
@@ -64,6 +63,6 @@ public class MailCreatorService {
         context.setVariable("is_friend", false);
         context.setVariable("admin_config", adminConfig);
         context.setVariable("application_functionality", functionality);
-        return templateEngine.process("mail/created-trello-card-mail.html", context);
+        return templateEngine.process("mail/second-mail.html", context);
     }
 }
